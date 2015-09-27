@@ -2,12 +2,12 @@
 ##############################################################################################################
 #                                                RsyncAutomator.py                                           # 
 #                                                                                                            #
-#												                              Ian Day                                                #
+#						      Ian Day	                                             # 
 #                                                iandday@gmail.com                                           #
 #                                                    20150719                                                #
 #                                                                                                            #
 # Automates two types of backups within a FreeNAS system, emails results at script completion                #
-#	Internal: Rsyncs multiple shares to a Zpool allowing one or more directories to be excluded                #
+#	Internal: Rsyncs multiple shares to a Zpool allowing one or more directories to be excluded          #
 #   External: Rsyncs the target Zpool used in the internal process to a UFS formatted external drive         #
 #                                                                                                            #
 # usage: RsyncAutomator.py [-h] [-v] function                                                                #
